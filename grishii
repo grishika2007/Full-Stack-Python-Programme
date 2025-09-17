@@ -1,0 +1,287 @@
+{
+ "cells": [
+  {
+   "cell_type": "code",
+   "execution_count": 1,
+   "id": "a9b35705-2f59-4f0e-b121-d6397b207ebf",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "Hello, Python Full Stack Students!\n"
+     ]
+    }
+   ],
+   "source": [
+    "print(\"Hello, Python Full Stack Students!\")"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 2,
+   "id": "c98acce8-e0b6-4b78-859c-71345ba9662d",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "We Are B.COM Students\n"
+     ]
+    }
+   ],
+   "source": [
+    "print(\"We Are B.COM Students\")"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 3,
+   "id": "238f089b-684c-4fdd-bd73-b329d3ec4296",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "Im 17 Year Old\n"
+     ]
+    }
+   ],
+   "source": [
+    "print(\"Im 17 Year Old\")"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 5,
+   "id": "87a399d4-c364-46fc-9581-ae141da8d917",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "grishika 18 8.5 True\n"
+     ]
+    }
+   ],
+   "source": [
+    "name = \"grishika\"\n",
+    "age = 18\n",
+    "gpa = 8.5\n",
+    "is_student = True\n",
+    "print(name,age,gpa,is_student)"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 6,
+   "id": "f89fd146-da48-475c-af2f-cd803fd00a5c",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "tanvi 18 9.0 True\n"
+     ]
+    }
+   ],
+   "source": [
+    "name = \"tanvi\"\n",
+    "age = 18\n",
+    "gpa = 9.0\n",
+    "is_student = True\n",
+    "print(name,age,gpa,is_student)"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 8,
+   "id": "41cc95a8-98e3-4141-85ce-5b30bd5764ec",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "mishika 17 9.5 True\n"
+     ]
+    }
+   ],
+   "source": [
+    "name = \"mishika\"\n",
+    "age = 17\n",
+    "gpa = 9.5\n",
+    "is_student = True \n",
+    "print(name,age,gpa,is_student)"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 12,
+   "id": "dd12e737-4d55-43a7-b3e2-92ab5e0b050e",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "<class 'int'> <class 'float'> <class 'str'> <class 'bool'>\n"
+     ]
+    }
+   ],
+   "source": [
+    "x = 10\n",
+    "y = 3.14\n",
+    "z =\"Python\"\n",
+    "flag = False\n",
+    "print(type(x), type(y), type(z), type(flag))"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 17,
+   "id": "4a3ba909-5ec7-43cf-b168-265d1488ed5e",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "grishika Avinash College of Commerce python\n"
+     ]
+    }
+   ],
+   "source": [
+    "name = \"grishika\"\n",
+    "college = \"Avinash College of Commerce\"\n",
+    "favlang = \"python\"\n",
+    "print(name,college,favlang)"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 18,
+   "id": "bb18d94d-7dbb-4065-8f91-d46410d79c06",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "18\n"
+     ]
+    }
+   ],
+   "source": [
+    "Current_year = 2025\n",
+    "Birth_year = 2007\n",
+    "print(Current_year-Birth_year)"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 20,
+   "id": "5c31d4eb-89a5-4634-acf1-e46aa74d34bd",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "coolie 2025 9.0\n"
+     ]
+    }
+   ],
+   "source": [
+    "movie_name = \"coolie\"\n",
+    "release_year = 2025\n",
+    "rating = 9.0\n",
+    "print(movie_name,release_year,rating)"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 21,
+   "id": "f373f045-907b-4d7a-9f5d-7553f3ffa19f",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "Addition: 19\n",
+      "Division: 3.75\n",
+      "Floor Division: 3\n",
+      "Power: 50625\n"
+     ]
+    }
+   ],
+   "source": [
+    "a = 15\n",
+    "b = 4\n",
+    "print(\"Addition:\", a + b)\n",
+    "print(\"Division:\", a / b)\n",
+    "print(\"Floor Division:\", a // b)\n",
+    "print(\"Power:\", a ** b)"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 22,
+   "id": "53bac3de-74de-4547-9caf-e7d84a54e413",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "False\n",
+      "True\n",
+      "True\n"
+     ]
+    }
+   ],
+   "source": [
+    "a = 10\n",
+    "b = 20\n",
+    "print(a > b)  # False\n",
+    "print(a == 10) # True\n",
+    "print(( a < b) and (b == 20)) # True\n"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "id": "bbe0b8ec-9a8b-4502-bc30-ac872b3d0571",
+   "metadata": {},
+   "outputs": [],
+   "source": []
+  }
+ ],
+ "metadata": {
+  "kernelspec": {
+   "display_name": "Python [conda env:base] *",
+   "language": "python",
+   "name": "conda-base-py"
+  },
+  "language_info": {
+   "codemirror_mode": {
+    "name": "ipython",
+    "version": 3
+   },
+   "file_extension": ".py",
+   "mimetype": "text/x-python",
+   "name": "python",
+   "nbconvert_exporter": "python",
+   "pygments_lexer": "ipython3",
+   "version": "3.13.5"
+  }
+ },
+ "nbformat": 4,
+ "nbformat_minor": 5
+}
